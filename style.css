@@ -1,0 +1,64 @@
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.main {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    width: 50vw;
+    height: 90vh;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.logo {
+    background-color: black;
+    color: bisque;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.input{
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: "Satisfy", cursive;
+    font-size: 20px;
+}
+
+.add_button{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: aqua;
+    color: black;
+}
+
+.delete{
+    border-radius: 18px;
+    padding: 7px 17px;
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+
+}
+
+.edit{
+    border-radius: 18px;
+    padding: 7px 17px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+.task{
+    font-size: 20px;
+    text-align: left;
+
+}

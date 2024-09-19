@@ -8,8 +8,8 @@ function renderArray() {
     printArr.innerHTML = ""
     for (var i = 0; i < array.length; i++) {
         printArr.innerHTML += `<li>${array[i]}
-        <button onclick = "deleteTodo(${i})">delete</button>
-        <button onclick = "editTodo(${i})">edit</button>
+        <button onclick = "deleteTodo(${i})" class = "delete satisfy-regular">delete</button>
+        <button onclick = "editTodo(${i})" class = "edit satisfy-regular">edit</button>
         </li>`
     }
 
@@ -25,13 +25,13 @@ function submit() {
 
 }
 
-function deleteTodo(index){
+function deleteTodo(index) {
     array.splice(index, 1);
     renderArray()
 }
 
 function editTodo(index) {
     var updatedVal = prompt('enter updated value');
-    array.splice(index , 1 , updatedVal);
+    array.splice(index, 1, updatedVal);
     renderArray()
 }

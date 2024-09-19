@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
-</head>
-<body>
-    
-    <h1>ToDo App</h1>
-    <input type="text" name="" id="input" placeholder="enter here">
-    <button onclick="submit()">submit</button>
-    <ol id="renderArr"></ol>
 
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo satisfy-regular">
+            <h1>ToDo App</h1>
+        </div>
+        <input type="text" name="" id="input" placeholder="enter here" class="input">
+        <button onclick="submit()" class="add_button satisfy-regular">ADD</button>
+        <ol id="renderArr" class="task"></ol>
+    </div>
 
     <script src="./app.js"></script>
 </body>
+
 </html>
